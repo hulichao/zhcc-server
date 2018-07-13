@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zhcc-demo:war">
+    <output-path>$PROJECT_DIR$/zhcc-demo/target</output-path>
+    <root id="archive" name="zhcc-demo.war">
+      <element id="artifact" artifact-name="zhcc-demo:war exploded" />
+    </root>
+  </artifact>
+</component>
