@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dubbo-demo-backend" />
         <module name="zhcc-demo" />
+        <module name="zhcc-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="zhcc-backend" target="1.8" />
       <module name="zhcc-demo" target="1.8" />
       <module name="zhcc-server" target="1.8" />
+      <module name="zhcc-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

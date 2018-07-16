@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/zhcc-demo/zhcc-demo.iml" filepath="$PROJECT_DIR$/zhcc-demo/zhcc-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/zhcc-server.iml" filepath="$PROJECT_DIR$/zhcc-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhcc-web/zhcc-web.iml" filepath="$PROJECT_DIR$/zhcc-web/zhcc-web.iml" />
     </modules>
   </component>
 </project>

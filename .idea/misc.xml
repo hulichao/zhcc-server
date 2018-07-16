@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/zhcc-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/zhcc-web" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/zhcc-web/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -14,7 +15,6 @@
         <option value="$PROJECT_DIR$/dubbo-demo-common/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-demo-system-api/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-demo-system-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
       </set>
     </option>
   </component>
