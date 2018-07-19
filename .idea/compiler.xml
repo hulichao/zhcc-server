@@ -7,22 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dubbo-demo-backend" />
-        <module name="zhcc-demo" />
+        <module name="zhcc-common" />
+        <module name="zhcc-orm" />
+        <module name="zhcc-shiro" />
         <module name="zhcc-web" />
+        <module name="zhccorm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dubbo-demo" target="1.8" />
-      <module name="dubbo-demo-backend" target="1.8" />
-      <module name="dubbo-demo-common" target="1.8" />
-      <module name="dubbo-demo-system-api" target="1.8" />
-      <module name="dubbo-demo-system-provider" target="1.8" />
-      <module name="zhcc" target="1.8" />
-      <module name="zhcc-backend" target="1.8" />
-      <module name="zhcc-demo" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="zhcc-common" target="1.8" />
+      <module name="zhcc-orm" target="1.8" />
       <module name="zhcc-server" target="1.8" />
+      <module name="zhcc-shiro" target="1.8" />
       <module name="zhcc-web" target="1.8" />
+      <module name="zhccorm" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

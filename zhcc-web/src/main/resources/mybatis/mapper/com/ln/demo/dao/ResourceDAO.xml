@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.ln.demo.dao.ResourceDAO">
+<mapper namespace="com.hu.demo.dao.ResourceDAO">
 	<resultMap id="resourceMap" type="Resource">
 		<id column="id" property="id" />
 		<result column="name" property="name" />
@@ -41,16 +41,16 @@
 
 	<select id="listAuthorized" resultMap="shiroResourceMap">
 		SELECT
-		r.id,r.name,r.code,r.url
-		FROM sys_resource r
+		result.id,result.name,result.code,result.url
+		FROM sys_resource result
 		INNER JOIN sys_permission p
-		ON r.id=p.resource_id
+		ON result.id=p.resource_id
 		INNER JOIN sys_user_role
 		ur ON
 		p.role_id=ur.role_id
 		INNER JOIN sys_user u ON ur.user_id=u.id
 		WHERE
-		u.id=#{userId} AND r.is_locked=0
+		u.id=#{userId} AND result.is_locked=0
 	</select>
 
 	<insert id="saveResource" useGeneratedKeys="true" keyProperty="id">

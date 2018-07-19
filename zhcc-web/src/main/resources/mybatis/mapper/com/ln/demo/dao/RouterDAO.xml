@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.ln.demo.dao.RouterDAO">
+<mapper namespace="com.hu.demo.dao.RouterDAO">
     <resultMap id="listRouterMap" type="Router">
         <id column="id" property="id" />
         <result column="name" property="name" />
@@ -33,19 +33,19 @@
     </resultMap>
 
     <select id="countRouter" parameterType="Map" resultType="int">
-        SELECT COUNT(*) FROM sys_router r
+        SELECT COUNT(*) FROM sys_router result
         <where>
             <if test="name != null">
-                r.name LIKE "%"#{name}"%"
+                result.name LIKE "%"#{name}"%"
             </if>
         </where>         
     </select>
     <select id="listRouter" parameterType="PageRequest" resultMap="listRouterMap">
-        SELECT r.*,r1.name AS parent_name 
-        FROM sys_router r LEFT JOIN sys_router r1 ON r.parent_id=r1.id
+        SELECT result.*,r1.name AS parent_name
+        FROM sys_router result LEFT JOIN sys_router r1 ON result.parent_id=r1.id
         <where>
             <if test="parameters!= null and parameters.name != null">
-                r.name LIKE "%"#{parameters.name}"%"
+                result.name LIKE "%"#{parameters.name}"%"
             </if>
         </where>        
         ORDER BY display_order

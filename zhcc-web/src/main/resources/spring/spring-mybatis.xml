@@ -13,7 +13,7 @@
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
 		<!-- 实体类别名 -->
-        <property name="typeAliasesPackage" value="com.ln.demo.entity"></property>
+        <property name="typeAliasesPackage" value="com.hu.demo.entity"></property>
 		<!-- 文件映射器，指定类文件 -->
 		<property name="configLocation" value="classpath:/mybatis/mybatis-config.xml" />
 		<!-- 自动扫描mapping.xml文件 -->
@@ -25,7 +25,7 @@
         <!--指定会话工厂，如果当前上下文中只定义了一个则该属性可省去 -->
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
         <!-- 指定要自动扫描接口所在的包，实现接口 -->
-        <property name="basePackage" value="com.ln.demo.dao"></property>
+        <property name="basePackage" value="com.hu.demo.dao"></property>
     </bean>
 
 </beans>

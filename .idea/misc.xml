@@ -7,7 +7,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/zhcc-web/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -15,6 +14,7 @@
         <option value="$PROJECT_DIR$/dubbo-demo-common/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-demo-system-api/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-demo-system-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/test/pom.xml" />
       </set>
     </option>
   </component>

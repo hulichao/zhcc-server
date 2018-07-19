@@ -6,7 +6,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans   
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="jwtUtils" class="com.ln.demo.util.JwtUtils">
+	<bean id="jwtUtils" class="com.hu.demo.util.JwtUtils">
 		<constructor-arg name="id" value="jwt" type="java.lang.String" />
 		<constructor-arg name="secret" value="6686df7fc3a34e26a61c034d5ec82488" type="java.lang.String" />
 		<constructor-arg name="ttlMillis" value="3600000" type="long" />

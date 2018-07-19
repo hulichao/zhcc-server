@@ -46,6 +46,16 @@
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.7" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.0.4.RELEASE" />
+          <element id="library" level="project" name="Maven: com.baidu.unbiz:fluent-validator-jsr303:1.0.2" />
+          <element id="library" level="project" name="Maven: com.baidu.unbiz:fluent-validator:1.0.2" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:5.2.1.Final" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.2.1.Final" />
+          <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.1.0" />
+          <element id="library" level="project" name="Maven: javax.el:javax.el-api:2.2.4" />
+          <element id="library" level="project" name="Maven: org.glassfish.web:javax.el:2.2.4" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.7" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
         </element>
       </element>
       <element id="directory" name="META-INF">

@@ -3,18 +3,17 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.ln</groupId>
+	<groupId>com.hu.zhcc</groupId>
 	<artifactId>zhcc-server</artifactId>
 	<version>1.0</version>
 	<packaging>pom</packaging>
 
 	<name>zhcc-server</name>
 	<url>http://maven.apache.org</url>
-
 	<properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
-        <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+		<maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
 		<spring.version>4.3.14.RELEASE</spring.version>
 	</properties>
 
@@ -72,21 +71,25 @@
 			<artifactId>spring-jdbc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-
+		<dependency>
+			<groupId>com.baidu.unbiz</groupId>
+			<artifactId>fluent-validator-jsr303</artifactId>
+			<version>1.0.2</version>
+		</dependency>
 	</dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven-compiler-plugin.version}</version>
-                <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                    <encoding>UTF-8</encoding>
-                </configuration>
-            </plugin>
-        </plugins>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven-compiler-plugin.version}</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+		</plugins>
 
 		<!-- 如果不添加此节点mybatis的mapper.xml文件都会被漏掉。 -->
 		<resources>
@@ -107,8 +110,11 @@
 				<filtering>false</filtering>
 			</resource>
 		</resources>
-    </build>
+	</build>
 	<modules>
 		<module>zhcc-web</module>
+		<module>zhcc-common</module>
+		<module>zhcc-shiro</module>
+		<module>zhcc-orm</module>
 	</modules>
 </project>

@@ -49,7 +49,7 @@
     <!-- 允许跨域访问，如果配置了网关，可以去掉该设置。 -->
     <filter>
         <filter-name>CorsFilter</filter-name>
-        <filter-class>com.ln.demo.filter.CORSFilter</filter-class>
+        <filter-class>com.hu.demo.filter.CORSFilter</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>CorsFilter</filter-name>
