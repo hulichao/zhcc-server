@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zhcc-common" />
-        <module name="zhcc-orm" />
         <module name="zhcc-shiro" />
         <module name="zhcc-web" />
         <module name="zhccorm" />

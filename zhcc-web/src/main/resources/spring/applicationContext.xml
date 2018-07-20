@@ -57,18 +57,18 @@
 		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
 		<property name="dataSource" ref="dataSource" />
 	</bean>
-	<!--使用注释事务 -->
+	<!--使用注解事务 -->
 	<tx:annotation-driven transaction-manager="transactionManager" />
 
 	<import resource="spring-mvc.xml" />
 	<import resource="spring-beans.xml" />
 	<import resource="spring-shiro.xml" />
 	<!-- 缓存shiro权限数据（Redis），如果不启用缓存或启用其他缓存类型，可注释该配置。 -->
-	<!--<import resource="applicationContext-jedis.xml" />-->
+	<import resource="applicationContext-jedis.xml" />
 	<import resource="spring-mybatis.xml" />
 
 	<!-- 使用Annotation自动注册Bean，解决事物失效问题：在主容器中不扫描@Controller注解，在SpringMvc中只扫描@Controller注解。  -->
-	<context:component-scan base-package="com.hu.demo.*"><!-- base-package 如果多个，用“,”分隔 -->
+	<context:component-scan base-package="com.hu.zhcc.*"><!-- base-package 如果多个，用“,”分隔 -->
 		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
 		<context:exclude-filter type="annotation" expression="org.springframework.web.bind.annotation.RestController"/>
 	</context:component-scan>

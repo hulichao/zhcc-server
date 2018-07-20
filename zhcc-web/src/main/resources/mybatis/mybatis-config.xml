@@ -7,6 +7,7 @@
 		<setting name="logImpl" value="SLF4J" />
 	</settings>
 	<typeAliases>
-		<typeAlias alias="PageRequest" type="com.hu.demo.common.data.PageRequest"></typeAlias>
+		<typeAlias alias="PageRequest" type="com.hu.zhcc.common.entity.PageRequest"></typeAlias>
+		<typeAlias alias="Page" type="com.hu.zhcc.common.entity.Page"></typeAlias>
 	</typeAliases>
 </configuration> 

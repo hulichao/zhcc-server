@@ -10,12 +10,12 @@
 	default-lazy-init="true">
 	
 	<!-- Realm实现 -->
-    <bean id="jwtRealm" class="com.hu.demo.shiro.JwtRealm">
+    <bean id="jwtRealm" class="com.hu.zhcc.shiro.security.JwtRealm">
         <property name="cachingEnabled" value="false"/>
     </bean>
     
     <!-- Subject工厂（不创建session） -->
-    <bean id="subjectFactory" class="com.hu.demo.shiro.JwtDefaultSubjectFactory"/>
+    <bean id="subjectFactory" class="com.hu.zhcc.shiro.security.JwtDefaultSubjectFactory"/>
 
     <!-- 会话管理器 -->
     <bean id="sessionManager" class="org.apache.shiro.session.mgt.DefaultSessionManager">
@@ -36,10 +36,10 @@
         <property name="arguments" ref="securityManager"/>
     </bean>
 
-    <bean id="jwtAuthcFilter" class="com.hu.demo.shiro.JwtAuthcFilter"/>
-    <bean id="restfulPermissionFilter" class="com.hu.demo.shiro.RestfulPermissionFilter"/>
+    <bean id="jwtAuthcFilter" class="com.hu.zhcc.shiro.security.JwtAuthcFilter"/>
+    <bean id="restfulPermissionFilter" class="com.hu.zhcc.shiro.security.RestfulPermissionFilter"/>
     
-    <bean id="chainDefinitionSectionMetaSource" class="com.hu.demo.shiro.ChainDefinitionSectionMetaSource">
+    <bean id="chainDefinitionSectionMetaSource" class="com.hu.zhcc.shiro.security.ChainDefinitionSectionMetaSource">
         <property name="filterChainDefinitions">
             <value>
                 / = anon

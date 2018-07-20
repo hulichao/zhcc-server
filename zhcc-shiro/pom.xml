@@ -15,6 +15,12 @@
     <url>http://www.hulichao.top</url>
 
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.hu.zhcc</groupId>
+            <artifactId>zhcc-common</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
 
 </project>

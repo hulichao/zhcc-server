@@ -11,7 +11,8 @@
     http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!-- 全局异常处理 -->
-    <bean id="exceptionHandler" class="com.hu.demo.exception.CustomMVExceptionResolver" />
+    <bean id="globalExceptionHandler" class="com.hu.zhcc.common.exception.GlobalCustomRestExceptionHandler" />
+    <bean id="customExceptionHandler" class="com.hu.zhcc.common.exception.CustomMVExceptionResolver" />
 
     <!-- 默认的注解映射的支持，自动注册DefaultAnnotationHandlerMapping和AnnotationMethodHandlerAdapter -->
     <mvc:annotation-driven>
@@ -36,7 +37,7 @@
     </mvc:annotation-driven>
 
 	<!-- 对web包中的所有类进行扫描，以完成Bean创建和自动依赖注入的功能 -->
-    <context:component-scan base-package="com.hu.demo">
+    <context:component-scan base-package="com.hu.zhcc">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
         <context:include-filter type="annotation" expression="org.springframework.web.bind.annotation.RestController"/>
     </context:component-scan>
