@@ -11,7 +11,7 @@
     http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!-- 全局异常处理 -->
-    <bean id="exceptionHandler" class="com.hu.demo.exception.CustomExceptionResolver" />
+    <bean id="exceptionHandler" class="com.hu.demo.exception.CustomMVExceptionResolver" />
 
     <!-- 默认的注解映射的支持，自动注册DefaultAnnotationHandlerMapping和AnnotationMethodHandlerAdapter -->
     <mvc:annotation-driven>

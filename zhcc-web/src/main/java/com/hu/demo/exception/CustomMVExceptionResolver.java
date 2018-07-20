@@ -8,6 +8,7 @@ import com.hu.demo.entity.Result;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.servlet.HandlerExceptionResolver;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -18,9 +19,10 @@ import javax.servlet.http.HttpServletResponse;
  * @author hulichao
  * @date 2018/7/17
  */
-public class CustomExceptionResolver implements HandlerExceptionResolver {
+@ControllerAdvice
+public class CustomMVExceptionResolver implements HandlerExceptionResolver {
 
-    private static Logger log = LoggerFactory.getLogger(CustomExceptionResolver.class);
+    private static Logger log = LoggerFactory.getLogger(CustomMVExceptionResolver.class);
 
     @Override
     public ModelAndView resolveException(HttpServletRequest httpServletRequest, HttpServletResponse response, Object o, Exception e) {

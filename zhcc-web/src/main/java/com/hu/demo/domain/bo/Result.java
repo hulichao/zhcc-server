@@ -16,15 +16,15 @@ public class Result extends HashMap<String, Object> {
 	private static final long serialVersionUID = 1L;
 	
 	public Result() {
-		put("code", 0);
+		put("code", 20000);
 	}
 	
 	public static Result fail() {
-		return fail(500, "未知异常，请联系管理员");
+		return fail(50000, "未知异常，请联系管理员");
 	}
 	
 	public static Result fail(String msg) {
-		return fail(500, msg);
+		return fail(50000, msg);
 	}
 
 	public static Result fail(List<ValidationError> fails) {
