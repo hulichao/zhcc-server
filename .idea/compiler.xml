@@ -14,13 +14,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="test" target="1.8" />
       <module name="zhcc-common" target="1.8" />
-      <module name="zhcc-orm" target="1.8" />
+      <module name="zhcc-help" target="1.8" />
       <module name="zhcc-server" target="1.8" />
       <module name="zhcc-shiro" target="1.8" />
       <module name="zhcc-web" target="1.8" />
-      <module name="zhccorm" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

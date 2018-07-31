@@ -17,15 +17,15 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
  * @date 2018/7/20
  */
 @ControllerAdvice
-@Order(Ordered.LOWEST_PRECEDENCE)
+@Order(Ordered.HIGHEST_PRECEDENCE)
 public class GlobalCustomRestExceptionHandler extends ResponseEntityExceptionHandler {
     //处理自定义异常
     @ExceptionHandler(CustomException.class)
     public ResponseEntity<Object> handleCustomerException(CustomException ex) {
 
-        final Result customeError = Result.fail(ex.getCode(), ex.getLocalizedMessage());
+        final Result error = Result.fail(ex.getCode(), ex.getLocalizedMessage());
 
-        return new ResponseEntity<Object>(customeError, new HttpHeaders(), ex.getHttpStatus());
+        return new ResponseEntity<Object>(error, new HttpHeaders(), ex.getHttpStatus());
 
     }
 
@@ -33,9 +33,9 @@ public class GlobalCustomRestExceptionHandler extends ResponseEntityExceptionHan
     @ExceptionHandler(ServiceException.class)
     public ResponseEntity<Object> handleServiceException(ServiceException ex) {
 
-        final Result customeError = Result.fail(ex.getCode(), ex.getLocalizedMessage());
+        final Result error = Result.fail(ex.getCode(), ex.getLocalizedMessage());
 
-        return new ResponseEntity<Object>(customeError, new HttpHeaders(), ex.getHttpStatus());
+        return new ResponseEntity<Object>(error, new HttpHeaders(), ex.getHttpStatus());
 
     }
 
@@ -43,17 +43,24 @@ public class GlobalCustomRestExceptionHandler extends ResponseEntityExceptionHan
     @ExceptionHandler(DAOException.class)
     public ResponseEntity<Object> handleDAOException(DAOException ex) {
 
-        final Result customeError = Result.fail(ex.getCode(), ex.getLocalizedMessage());
+        final Result error = Result.fail(ex.getCode(), ex.getLocalizedMessage());
 
-        return new ResponseEntity<Object>(customeError, new HttpHeaders(), ex.getHttpStatus());
+        return new ResponseEntity<Object>(error, new HttpHeaders(), ex.getHttpStatus());
 
     }
 
-    //处理通用异常，这里举例说明如何覆盖处理 请求方法不支持的异常
+    //这里请求方法不支持的异常
     @Override
     protected ResponseEntity<Object> handleHttpRequestMethodNotSupported(HttpRequestMethodNotSupportedException ex,
                                                                          HttpHeaders headers, HttpStatus status, WebRequest request) {
-        final Result customeError = Result.fail(status.value(), "HttpRequestMethodNotSupported");
-        return new ResponseEntity<Object>(customeError, new HttpHeaders(), status);
+        final Result error = Result.fail(status.value(), "HttpRequestMethodNotSupported");
+        return new ResponseEntity<Object>(error, new HttpHeaders(), status);
+    }
+    // 处理通用异常
+    @ExceptionHandler(Exception.class)
+    protected ResponseEntity<Object> handleFutureException(Exception ex,
+                                                                         HttpHeaders headers, HttpStatus status, WebRequest request) {
+        final Result error = Result.fail(status.value(), "未知异常，请联系管理员");
+        return new ResponseEntity<Object>(error, new HttpHeaders(), status);
     }
 }

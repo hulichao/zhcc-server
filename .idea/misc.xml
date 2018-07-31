@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/dubbo-demo-system-api/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-demo-system-provider/pom.xml" />
         <option value="$PROJECT_DIR$/test/pom.xml" />
+        <option value="$PROJECT_DIR$/zhcc-help/pom.xml" />
         <option value="$PROJECT_DIR$/zhcc-orm/pom.xml" />
       </set>
     </option>

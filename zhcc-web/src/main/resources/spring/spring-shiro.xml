@@ -46,6 +46,7 @@
                 /index.html = anon
                 /auth/token = anon
                 /logout = anon
+                /swagger-ui.html = user
                 /permissions/functionPermissions = jwtAuthcFilter
                 /users/me = jwtAuthcFilter
             </value>

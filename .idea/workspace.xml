@@ -1,134 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c076b030-5087-41cd-b0bd-de7d2136ae26" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_14_RELEASE.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_4_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_4_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_4_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_4_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_4_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_4_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-orm/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-orm/src/main/java/com/hu/zhcc/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-orm/src/test/java/com/hu/zhcc/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/bo/Resource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/bo/Role.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/dto/PermissionDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/vo/RoleListVO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/vo/RouterDetailVO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/vo/RouterNavVO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/vo/UserDetailVO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/dto/AvailableResourceDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/dto/ResourceDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/dto/ResourcePermissionDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/dto/RoleDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/dto/RouterDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/dto/UserDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/entity/Result.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/entity/Router.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/entity/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/vo/AvailableResourceListVO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/vo/ResourceDetailVO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/vo/ResourceListVO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/vo/ResourcePermissionVO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/vo/RoleDetailVO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/vo/RouterListVO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/vo/UserListVO.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_14_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_14_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_14_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_14_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_14_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/common/data/Page.java" afterPath="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/entity/Page.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/common/data/PageRequest.java" afterPath="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/entity/PageRequest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/common/exception/DAOException.java" afterPath="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/DAOException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/common/exception/ServiceException.java" afterPath="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/ServiceException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/common/util/DateTimeUtils.java" afterPath="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/utils/DateTimeUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/controller/AuthController.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/AuthController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/controller/BaseController.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/BaseController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/controller/HomeController.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/HomeController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/controller/ResourceController.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/ResourceController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/controller/RoleController.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/RoleController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/controller/RouterController.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/RouterController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/controller/UserController.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/UserController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/dao/ResourceDAO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/dao/ResourceDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/dao/ResourcePermissionDAO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/dao/ResourcePermissionDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/dao/RoleDAO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/dao/RoleDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/dao/RouterDAO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/dao/RouterDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/dao/RouterPermissionDAO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/dao/RouterPermissionDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/dao/UserDAO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/dao/UserDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/dao/UserRoleDAO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/dao/UserRoleDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/bo/Result.java" afterPath="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/entity/Result.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/bo/Router.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/bo/Router.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/bo/User.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/bo/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/dto/AvailableResourceDTO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/dto/AvailableResourceDTO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/dto/ResourceDTO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/dto/ResourceDTO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/dto/ResourcePermissionDTO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/dto/ResourcePermissionDTO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/dto/RoleDTO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/dto/RoleDTO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/dto/RouterDTO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/dto/RouterDTO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/dto/UserDTO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/dto/UserDTO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/vo/AvailableResourceListVO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/vo/AvailableResourceListVO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/vo/ResourceDetailVO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/vo/ResourceDetailVO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/vo/ResourceListVO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/vo/ResourceListVO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/vo/ResourcePermissionVO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/vo/ResourcePermissionVO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/vo/RoleDetailVO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/vo/RoleDetailVO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/vo/RouterListVO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/vo/RouterListVO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/domain/vo/UserListVO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/vo/UserListVO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/dto/PermissionDTO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/dto/PermissionDTO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/entity/Resource.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/bo/Resource.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/entity/Role.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/bo/Role.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/exception/CustomException.java" afterPath="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/CustomException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/exception/CustomMVExceptionResolver.java" afterPath="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/CustomMVExceptionResolver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/exception/ExceptionEnum.java" afterPath="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/ExceptionEnum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/exception/GlobalCustomRestExceptionHandler.java" afterPath="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/GlobalCustomRestExceptionHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/filter/CORSFilter.java" afterPath="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/filter/CORSFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/service/ResourceService.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/ResourceService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/service/ResourceServiceImpl.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/ResourceServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/service/RoleService.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/RoleService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/service/RoleServiceImpl.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/RoleServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/service/RouterService.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/RouterService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/service/RouterServiceImpl.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/RouterServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/service/UserService.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/UserService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/service/UserServiceImpl.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/UserServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/shiro/ChainDefinitionSectionMetaSource.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/security/ChainDefinitionSectionMetaSource.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/shiro/JwtAuthcFilter.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/security/JwtAuthcFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/shiro/JwtDefaultSubjectFactory.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/security/JwtDefaultSubjectFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/shiro/JwtRealm.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/security/JwtRealm.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/shiro/JwtToken.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/security/JwtToken.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/shiro/RestfulPermissionFilter.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/security/RestfulPermissionFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/shiro/cache/CacheManager.java" afterPath="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/cache/CacheManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/util/JwtUtils.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/utils/JwtUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/vo/RoleListVO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/vo/RoleListVO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/vo/RouterDetailVO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/vo/RouterDetailVO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/vo/RouterNavVO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/vo/RouterNavVO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/demo/vo/UserDetailVO.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/vo/UserDetailVO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/resources/mybatis/mapper/com/ln/demo/dao/ResourceDAO.xml" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/resources/mapper.com.hu.zhcc.shiro.dao/ResourceDAO.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/resources/mybatis/mapper/com/ln/demo/dao/ResourcePermissionDAO.xml" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/resources/mapper.com.hu.zhcc.shiro.dao/ResourcePermissionDAO.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/resources/mybatis/mapper/com/ln/demo/dao/RoleDAO.xml" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/resources/mapper.com.hu.zhcc.shiro.dao/RoleDAO.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/resources/mybatis/mapper/com/ln/demo/dao/RouterDAO.xml" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/resources/mapper.com.hu.zhcc.shiro.dao/RouterDAO.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/resources/mybatis/mapper/com/ln/demo/dao/RouterPermissionDAO.xml" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/resources/mapper.com.hu.zhcc.shiro.dao/RouterPermissionDAO.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/resources/mybatis/mapper/com/ln/demo/dao/UserDAO.xml" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/resources/mapper.com.hu.zhcc.shiro.dao/UserDAO.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/resources/mybatis/mapper/com/ln/demo/dao/UserRoleDAO.xml" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/resources/mapper.com.hu.zhcc.shiro.dao/UserRoleDAO.xml" />
+    <list default="true" id="c076b030-5087-41cd-b0bd-de7d2136ae26" name="Default" comment="增加数据库文件&#10;管理员默认账号密码是admin admin">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hu_zhcc_zhcc_help_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_CR1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_0_18_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhcc-shiro/src/test/java/com/hu/TestParameter8.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhcc-shiro/target/classes/mapper.com.hu.zhcc.shiro.dao/ResourceDAO.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhcc-shiro/target/classes/mapper.com.hu.zhcc.shiro.dao/ResourcePermissionDAO.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhcc-shiro/target/classes/mapper.com.hu.zhcc.shiro.dao/RoleDAO.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhcc-shiro/target/classes/mapper.com.hu.zhcc.shiro.dao/RouterDAO.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhcc-shiro/target/classes/mapper.com.hu.zhcc.shiro.dao/RouterPermissionDAO.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhcc-shiro/target/classes/mapper.com.hu.zhcc.shiro.dao/UserDAO.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhcc-shiro/target/classes/mapper.com.hu.zhcc.shiro.dao/UserRoleDAO.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/CustomMVExceptionResolver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/resources/redis.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhcc-web/src/main/webapp/sql/zhcc.sql" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_2_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/zhcc_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/zhcc_web_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhcc-shiro/pom.xml" afterPath="$PROJECT_DIR$/zhcc-shiro/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/GlobalCustomRestExceptionHandler.java" afterPath="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/GlobalCustomRestExceptionHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/BaseController.java" afterPath="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/BaseController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhcc-web/pom.xml" afterPath="$PROJECT_DIR$/zhcc-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhcc-web/src/main/resources/mybatis/mybatis-config.xml" afterPath="$PROJECT_DIR$/zhcc-web/src/main/resources/mybatis/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhcc-web/src/main/resources/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/zhcc-web/src/main/resources/spring/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhcc-web/src/main/resources/spring/applicationContext-jedis.xml" afterPath="$PROJECT_DIR$/zhcc-web/src/main/resources/spring/applicationContext-jedis.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-beans.xml" afterPath="$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-beans.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-mybatis.xml" afterPath="$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-mybatis.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-shiro.xml" afterPath="$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-shiro.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhcc-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/zhcc-web/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/dubbo-demo-backend/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-demo-common/target/" />
@@ -143,6 +58,7 @@
     <ignored path="$PROJECT_DIR$/zhccorm/target/" />
     <ignored path="$PROJECT_DIR$/zhc-corm/target/" />
     <ignored path="$PROJECT_DIR$/zhcc-orm/target/" />
+    <ignored path="$PROJECT_DIR$/zhcc-help/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -168,11 +84,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="spring-beans.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+            <state relative-caret-position="342">
+              <caret line="38" column="89" lean-forward="false" selection-start-line="38" selection-start-column="89" selection-end-line="38" selection-end-column="89" />
               <folding>
                 <element signature="n#mvc:annotation-driven#0;n#beans#0;n#!!top" expanded="false" />
                 <element signature="n#context:component-scan#0;n#beans#0;n#!!top" expanded="false" />
@@ -181,103 +107,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/AuthController.java">
+      <file leaf-file-name="spring-shiro.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-shiro.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="846">
+              <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/spring/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2051#2064#0" expanded="true" />
+                <element signature="n#bean#0;n#beans#0;n#!!top" expanded="false" />
+                <element signature="n#bean#1;n#beans#0;n#!!top" expanded="false" />
+                <element signature="n#context:component-scan#0;n#beans#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhcc-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/webapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="193" column="14" lean-forward="true" selection-start-line="193" selection-start-column="14" selection-end-line="193" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomMVExceptionResolver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/CustomMVExceptionResolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GlobalCustomRestExceptionHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/GlobalCustomRestExceptionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="53" column="39" lean-forward="false" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2673#2685#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="78" column="31" lean-forward="true" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AopUtils.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvocableHandlerMethod.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+            <state relative-caret-position="2808">
+              <caret line="156" column="8" lean-forward="false" selection-start-line="156" selection-start-column="8" selection-end-line="165" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -289,15 +179,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Trans</find>
-      <find>Transa</find>
-      <find>Transac</find>
       <find>Transacti</find>
       <find>Transactio</find>
       <find>Transaction</find>
@@ -325,10 +213,12 @@
       <find>org.apache.commons</find>
       <find>com.hu.zhcc.web</find>
       <find>PageRequest</find>
+      <find>saveUserRole</find>
+      <find>dubbo_demo</find>
+      <find>409eff</find>
     </findStrings>
     <replaceStrings>
       <replace>properties</replace>
-      <replace>zhcc</replace>
       <replace>hulichao</replace>
       <replace>2018/4</replace>
       <replace />
@@ -344,6 +234,7 @@
       <replace>code</replace>
       <replace>msg</replace>
       <replace>com.hu.zhcc.shiro</replace>
+      <replace>zhcc</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/dubbo-demo-system-provider</dir>
@@ -365,16 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zhcc-web/pom.xml" />
-        <option value="$PROJECT_DIR$/zhcc-shiro/pom.xml" />
-        <option value="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/utils/DateTimeUtils.java" />
-        <option value="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/comon/entity/Page.java" />
-        <option value="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/comon/entity/PageRequest.java" />
-        <option value="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/zhcc/web/dao/ResourceDAO.java" />
-        <option value="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/zhcc/web/dao/ResourcePermissionDAO.java" />
-        <option value="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/zhcc/web/dao/RoleDAO.java" />
-        <option value="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/zhcc/web/dao/RouterDAO.java" />
-        <option value="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/zhcc/web/dao/RouterPermissionDAO.java" />
         <option value="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/zhcc/web/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/zhcc-web/src/main/java/com/hu/zhcc/web/dao/UserRoleDAO.java" />
         <option value="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/ServiceException.java" />
@@ -386,8 +267,6 @@
         <option value="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/filter/CORSFilter.java" />
         <option value="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/security/RestfulPermissionFilter.java" />
         <option value="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/cache/CacheManager.java" />
-        <option value="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/AuthController.java" />
-        <option value="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/BaseController.java" />
         <option value="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/ResourceController.java" />
         <option value="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/RoleController.java" />
@@ -412,10 +291,22 @@
         <option value="$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/zhcc-web/src/main/resources/mybatis/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/zhcc-web/src/main/resources/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/zhcc-web/src/main/resources/redis.properties" />
         <option value="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/CustomMVExceptionResolver.java" />
+        <option value="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/AuthController.java" />
         <option value="$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/GlobalCustomRestExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/zhcc-web/src/main/webapp/sql/zhcc.sql" />
+        <option value="$PROJECT_DIR$/zhcc-shiro/src/test/java/com/hu/TestParameter8.java" />
+        <option value="$PROJECT_DIR$/zhcc-web/src/main/resources/spring/applicationContext-jedis.xml" />
+        <option value="$PROJECT_DIR$/zhcc-web/src/main/resources/config/context-swagger.xml" />
+        <option value="$PROJECT_DIR$/zhcc-help/pom.xml" />
+        <option value="$PROJECT_DIR$/zhcc-help/src/main/java/com/hu/zhcc/help/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/zhcc-web/pom.xml" />
+        <option value="$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-beans.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-shiro.xml" />
       </list>
     </option>
   </component>
@@ -435,7 +326,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="mavenHome" value="$USER_HOME$/src/apache-maven-3.5.0 2" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -445,37 +336,12 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="zhcc-server" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="zhcc-server" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="823" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -493,8 +359,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -507,13 +373,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhcc-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhcc-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhcc-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -524,11 +404,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/zhcc-help/src/main/resources" />
+      <recent name="$PROJECT_DIR$/zhcc-web/src/main/webapp/sql" />
       <recent name="$PROJECT_DIR$/zhcc-shiro/src/main/resources/mapper.com.hu.zhcc.shiro.dao" />
       <recent name="$PROJECT_DIR$/zhcc-web/src/main/resources/spring" />
       <recent name="$PROJECT_DIR$/zhcc-demo/src/main" />
-      <recent name="$PROJECT_DIR$/zhcc-demo/src" />
-      <recent name="$PROJECT_DIR$/dubbo-demo-backend/src/main/resources/mybatis" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -598,6 +478,26 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="dubbo-demo-system-provider" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestParameter8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.hu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.hu.TestParameter8" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="zhcc-shiro" />
       <envs />
       <method />
     </configuration>
@@ -1022,6 +922,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.78" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.html" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -1094,15 +995,17 @@
         </option>
       </method>
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.All in dubbo-demo-system-provider" />
       <item index="2" class="java.lang.String" itemvalue="Application.App" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestParameter8" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.App" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in dubbo-demo-system-provider" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.TestParameter8" />
+        <item index="1" class="java.lang.String" itemvalue="Application.App" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in dubbo-demo-system-provider" />
       </list>
     </recent_temporary>
   </component>
@@ -1146,8 +1049,24 @@
       <workItem from="1532003034910" duration="533000" />
       <workItem from="1532048425106" duration="1722000" />
       <workItem from="1532053800372" duration="8111000" />
-      <workItem from="1532086268310" duration="6864000" />
+      <workItem from="1532086268310" duration="7225000" />
+      <workItem from="1532147459330" duration="8413000" />
+      <workItem from="1532233255668" duration="251000" />
+      <workItem from="1532594774874" duration="2093000" />
+      <workItem from="1532657109172" duration="5245000" />
+      <workItem from="1532778537822" duration="46000" />
+      <workItem from="1532935970957" duration="4255000" />
+      <workItem from="1532998972917" duration="8000" />
+      <workItem from="1533024258610" duration="1873000" />
     </task>
+    <task id="LOCAL-00001" summary="增加数据库文件&#10;管理员默认账号密码是admin admin">
+      <created>1532595266908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532595266908</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1156,17 +1075,26 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107013000" />
+    <option name="totallyTimeSpent" value="129558000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="825" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18597998" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18597998" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1174,21 +1102,20 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29001367" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32650602" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28649387" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17798913" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30232558" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287858" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18554217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29156625" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23319027" sideWeight="0.49325627" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22646658" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22389127" sideWeight="0.49325627" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32421342" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23319027" sideWeight="0.5067437" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1196,6 +1123,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32201087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1231,436 +1159,325 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="增加数据库文件&#10;管理员默认账号密码是admin admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加数据库文件&#10;管理员默认账号密码是admin admin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/UserController.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/UserServiceImpl.java</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="26" />
+      <option name="time" value="42" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="method.getName()" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/ExceptionEnum.java">
+    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/dao/UserRoleDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="206">
+          <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/filter/CORSFilter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/cache/CacheManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/ResourceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <element signature="e#1911#1927#0" expanded="true" />
-            <element signature="e#4073#4095#0" expanded="true" />
-            <element signature="e#4613#4638#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/dao/ResourceDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/dao/ResourcePermissionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/dao/RoleDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/dao/RouterDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/dao/RouterPermissionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/entity/bo/Resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/security/JwtDefaultSubjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/security/JwtRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/security/JwtToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/security/JwtAuthcFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/security/ChainDefinitionSectionMetaSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/security/RestfulPermissionFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/ResourceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-760">
-          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/ResourceServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="e#1336#1358#0" expanded="true" />
-            <element signature="e#4381#4404#0" expanded="true" />
-            <element signature="e#5166#5179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/RouterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/RouterServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="e#2252#2263#0" expanded="true" />
-            <element signature="e#3411#3422#0" expanded="true" />
-            <element signature="e#4991#5002#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/utils/JwtUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/resources/mapper.com.hu.zhcc.shiro.dao/ResourceDAO.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1532090668000" expanded="true" signature="1435:1723" ph="SELECT resul... sys_resource" />
-            <marker date="1532090668000" expanded="true" signature="1807:1952" ph="INSERT INTO sys_resource... " />
-            <marker date="1532090668000" expanded="true" signature="2000:2156" ph="UPDATE sys_r... " />
-            <marker date="1532090668000" expanded="true" signature="2205:2244" ph="DELETE FROM " />
-            <marker date="1532090668000" expanded="true" signature="2309:2438" ph="SELECT r1.*,... sys_resource" />
-            <marker date="1532090668000" expanded="true" signature="2513:2661" ph="SELECT r1.*,... sys_resource" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/resources/mapper.com.hu.zhcc.shiro.dao/RoleDAO.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1532090668000" expanded="true" signature="749:947" ph="SELECT * FRO... sys_role" />
-            <marker date="1532090668000" expanded="true" signature="1034:1119" ph="INSERT INTO sys_role... " />
-            <marker date="1532090668000" expanded="true" signature="1184:1221" ph="SELECT * FRO... sys_role" />
-            <marker date="1532090668000" expanded="true" signature="1265:1351" ph="UPDATE sys_r... " />
-            <marker date="1532090668000" expanded="true" signature="1395:1430" ph="DELETE FROM " />
-            <marker date="1532090668000" expanded="true" signature="1495:1535" ph="SELECT * FRO... sys_role" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/resources/mapper.com.hu.zhcc.shiro.dao/RouterPermissionDAO.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding>
-            <marker date="1532090668000" expanded="true" signature="770:1201" ph="SELECT route... sys_router_permission" />
-            <marker date="1532090668000" expanded="true" signature="1262:1319" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="48" column="33" lean-forward="false" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2944#2953#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="2646">
+          <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/mybatis/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding>
-            <element signature="n#bean#0;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#bean#1;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#bean#2;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#context:component-scan#0;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#bean#3;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#bean#4;n#beans#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/spring/applicationContext-jedis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="n#bean#0;n#beans#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/RoleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
+        <state relative-caret-position="444">
           <caret line="34" column="48" lean-forward="false" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1362#1374#0" expanded="true" />
-            <element signature="e#3066#3078#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/RouterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
+        <state relative-caret-position="108">
           <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/filter/CORSFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/ServiceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/CustomMVExceptionResolver.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.14.RELEASE/spring-webmvc-4.3.14.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ResponseEntityExceptionHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/CustomException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/DAOException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/ExceptionEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/resources/mapper.com.hu.zhcc.shiro.dao/UserRoleDAO.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/resources/mapper.com.hu.zhcc.shiro.dao/UserDAO.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="82" column="32" lean-forward="false" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/GlobalCustomRestExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/webapp/sql/zhcc.sql" />
+    <entry file="file://$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/cache/CacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/security/JwtAuthcFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/security/JwtDefaultSubjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/security/JwtRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/security/RestfulPermissionFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE.jar!/org/springframework/core/LocalVariableTableParameterNameDiscoverer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/test/java/com/hu/TestParameter8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/security/ChainDefinitionSectionMetaSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="53" column="48" lean-forward="false" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="70" column="53" lean-forward="false" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/utils/JwtUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-475">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/security/JwtToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0.jar!/io/jsonwebtoken/impl/JwtMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0.jar!/io/jsonwebtoken/impl/DefaultClaims.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0.jar!/io/jsonwebtoken/Claims.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/ResourceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/redis.properties" />
+    <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/spring/applicationContext-jedis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1421#1435#0" expanded="true" />
-            <element signature="e#2119#2132#0" expanded="true" />
-            <element signature="e#3016#3030#0" expanded="true" />
-            <element signature="e#4567#4581#0" expanded="true" />
+            <element signature="e#1035#1050#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/HomeController.java">
+    <entry file="file://$PROJECT_DIR$/zhcc-help/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/zhcc-help/src/main/resources/context-swagger.xml" />
+    <entry file="file://$PROJECT_DIR$/zhcc-help/src/main/java/com/hu/zhcc/help/config/SwaggerConfig.java" />
+    <entry file="file://$PROJECT_DIR$/zhcc-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="378">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#bean#0;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#bean#1;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#context:component-scan#0;n#beans#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+        <state relative-caret-position="342">
+          <caret line="38" column="89" lean-forward="false" selection-start-line="38" selection-start-column="89" selection-end-line="38" selection-end-column="89" />
           <folding>
             <element signature="n#mvc:annotation-driven#0;n#beans#0;n#!!top" expanded="false" />
             <element signature="n#context:component-scan#0;n#beans#0;n#!!top" expanded="false" />
@@ -1668,96 +1485,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/AuthController.java">
+    <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/resources/spring/spring-shiro.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2051#2064#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        <state relative-caret-position="846">
+          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="53" column="39" lean-forward="false" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+        <state relative-caret-position="108">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2673#2685#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/dao/UserRoleDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/GlobalCustomRestExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-common/src/main/java/com/hu/zhcc/common/exception/CustomMVExceptionResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="78" column="31" lean-forward="true" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="193" column="14" lean-forward="true" selection-start-line="193" selection-start-column="14" selection-end-line="193" selection-end-column="14" />
+        <state relative-caret-position="2808">
+          <caret line="156" column="8" lean-forward="false" selection-start-line="156" selection-start-column="8" selection-end-line="165" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhcc-web/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding />
         </state>
       </provider>

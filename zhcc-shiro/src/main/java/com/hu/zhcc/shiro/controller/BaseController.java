@@ -3,11 +3,6 @@ package com.hu.zhcc.shiro.controller;
 import com.alibaba.fastjson.JSONObject;
 import com.hu.zhcc.shiro.utils.JwtUtils;
 import io.jsonwebtoken.Claims;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-
-import javax.servlet.http.HttpServletRequest;
 
 /**
  * Controllerg公用基类
@@ -18,11 +13,11 @@ import javax.servlet.http.HttpServletRequest;
  */
 public class BaseController {
     
-    @ExceptionHandler
-    public ResponseEntity<String> exceptionHandler(HttpServletRequest request, Exception e) {
-    	//FIXME
-        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("系统管理员跑路拉，您再自己瞅瞅吧");
-    }
+//    @ExceptionHandler
+//    public ResponseEntity<String> exceptionHandler(HttpServletRequest request, Exception e) {
+//    	//FIXME
+//        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("系统管理员跑路拉，您再自己瞅瞅吧");
+//    }
 	
 	/**
 	 * 从jwt中获取subject信息

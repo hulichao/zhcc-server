@@ -5,8 +5,6 @@
         http://www.springframework.org/schema/context 
         http://www.springframework.org/schema/context/spring-context.xsd">
 	<!-- 加载配置属性文件 -->
-	<context:property-placeholder
-		ignore-unresolvable="true" location="classpath:redis.properties" />
 	<bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
         <!-- 最大连接数  -->
         <property name="maxTotal" value="100" />	

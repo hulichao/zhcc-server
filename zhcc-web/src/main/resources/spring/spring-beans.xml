@@ -12,4 +12,6 @@
 		<constructor-arg name="ttlMillis" value="3600000" type="long" />
 	</bean>
 
+	<bean id="swagger2Config"
+		  class="springfox.documentation.swagger2.configuration.Swagger2DocumentationConfiguration"/>
 </beans>
