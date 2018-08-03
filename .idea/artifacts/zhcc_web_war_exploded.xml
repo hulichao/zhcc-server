@@ -13,7 +13,6 @@
           <element id="archive" name="zhcc-common-1.0.jar">
             <element id="module-output" name="zhcc-common" />
           </element>
-          <element id="library" level="project" name="Maven: com.hu.zhcc:zhcc-help:1.0" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
