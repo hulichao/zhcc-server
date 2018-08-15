@@ -44,6 +44,7 @@
             <value>
                 / = anon
                 /index.html = anon
+                /static/** = anon
                 /auth/token = anon
                 /logout = anon
                 /swagger-ui.html = user
