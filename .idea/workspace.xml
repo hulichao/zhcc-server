@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c076b030-5087-41cd-b0bd-de7d2136ae26" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/dubbo-demo-backend/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-demo-common/target/" />
@@ -97,34 +98,34 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="126">
-                <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <first_editor relative-caret-position="3744">
+                <caret line="208" column="277" lean-forward="false" selection-start-line="208" selection-start-column="277" selection-end-line="208" selection-end-column="277" />
                 <folding>
-                  <marker date="1534322598000" expanded="true" signature="2882:3106" ph="{...}" />
-                  <marker date="1534322598000" expanded="true" signature="2894:3104" ph="[...]" />
-                  <marker date="1534322598000" expanded="true" signature="2900:3014" ph="{&quot;name&quot;: &quot;login&quot;...}" />
-                  <marker date="1534322598000" expanded="true" signature="3015:3100" ph="{&quot;path&quot;: '/index'...}" />
-                  <marker date="1534322598000" expanded="true" signature="3188:3243" ph="{...}" />
-                  <marker date="1534322598000" expanded="true" signature="3258:3378" ph="{...}" />
-                  <marker date="1534322598000" expanded="true" signature="3275:3374" ph="{...}" />
-                  <marker date="1534322598000" expanded="true" signature="3288:3354" ph="{&quot;path&quot;: '/login'...}" />
-                  <marker date="1534322598000" expanded="true" signature="3406:3522" ph="{...}" />
-                  <marker date="1534322598000" expanded="true" signature="3420:3435" ph="{...}" />
-                  <marker date="1534322598000" expanded="true" signature="3441:3519" ph="{...}" />
-                  <marker date="1534322598000" expanded="true" signature="3451:3514" ph="{&quot;path&quot;: '/login'...}" />
-                  <marker date="1534322598000" expanded="true" signature="3528:3541" ph="{...}" />
-                  <marker date="1534322598000" expanded="true" signature="3578:3692" ph="{...}" />
-                  <marker date="1534322598000" expanded="true" signature="3640:3674" ph="{&quot;title&quot;: '首页'...}" />
-                  <marker date="1534322598000" expanded="true" signature="3740:4024" ph="{...}" />
-                  <marker date="1534322598000" expanded="true" signature="3843:3989" ph="{...}" />
-                  <marker date="1534322598000" expanded="true" signature="3874:3967" ph="{&quot;title&quot;: item...}" />
-                  <marker date="1534322598000" expanded="true" signature="4152:4415" ph="{...}" />
-                  <marker date="1534322598000" expanded="true" signature="4185:4201" ph="{...}" />
-                  <marker date="1534322598000" expanded="true" signature="4222:4278" ph="{&quot;name&quot;: &quot;/&quot;...}" />
-                  <marker date="1534322598000" expanded="true" signature="4464:5023" ph="{...}" />
-                  <marker date="1534322598000" expanded="true" signature="4570:4999" ph="{...}" />
-                  <marker date="1534322598000" expanded="true" signature="4600:4995" ph="{...}" />
-                  <marker date="1534322598000" expanded="true" signature="4680:4763" ph="{&quot;name&quot;: router.code...}" />
+                  <marker date="1534323814000" expanded="true" signature="2985:3209" ph="{...}" />
+                  <marker date="1534323814000" expanded="true" signature="2997:3207" ph="[...]" />
+                  <marker date="1534323814000" expanded="true" signature="3003:3117" ph="{&quot;name&quot;: &quot;login&quot;...}" />
+                  <marker date="1534323814000" expanded="true" signature="3118:3203" ph="{&quot;path&quot;: '/index'...}" />
+                  <marker date="1534323814000" expanded="true" signature="3291:3346" ph="{...}" />
+                  <marker date="1534323814000" expanded="true" signature="3361:3481" ph="{...}" />
+                  <marker date="1534323814000" expanded="true" signature="3378:3477" ph="{...}" />
+                  <marker date="1534323814000" expanded="true" signature="3391:3457" ph="{&quot;path&quot;: '/login'...}" />
+                  <marker date="1534323814000" expanded="true" signature="3509:3625" ph="{...}" />
+                  <marker date="1534323814000" expanded="true" signature="3523:3538" ph="{...}" />
+                  <marker date="1534323814000" expanded="true" signature="3544:3622" ph="{...}" />
+                  <marker date="1534323814000" expanded="true" signature="3554:3617" ph="{&quot;path&quot;: '/login'...}" />
+                  <marker date="1534323814000" expanded="true" signature="3631:3644" ph="{...}" />
+                  <marker date="1534323814000" expanded="true" signature="3681:3795" ph="{...}" />
+                  <marker date="1534323814000" expanded="true" signature="3743:3777" ph="{&quot;title&quot;: '首页'...}" />
+                  <marker date="1534323814000" expanded="true" signature="3843:4127" ph="{...}" />
+                  <marker date="1534323814000" expanded="true" signature="3946:4092" ph="{...}" />
+                  <marker date="1534323814000" expanded="true" signature="3977:4070" ph="{&quot;title&quot;: item...}" />
+                  <marker date="1534323814000" expanded="true" signature="4255:4518" ph="{...}" />
+                  <marker date="1534323814000" expanded="true" signature="4288:4304" ph="{...}" />
+                  <marker date="1534323814000" expanded="true" signature="4325:4381" ph="{&quot;name&quot;: &quot;/&quot;...}" />
+                  <marker date="1534323814000" expanded="true" signature="4567:5126" ph="{...}" />
+                  <marker date="1534323814000" expanded="true" signature="4673:5102" ph="{...}" />
+                  <marker date="1534323814000" expanded="true" signature="4703:5098" ph="{...}" />
+                  <marker date="1534323814000" expanded="true" signature="4783:4866" ph="{&quot;name&quot;: router.code...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -1103,7 +1104,7 @@
       <workItem from="1533264974855" duration="1377000" />
       <workItem from="1533275339953" duration="2273000" />
       <workItem from="1534123634003" duration="729000" />
-      <workItem from="1534302163125" duration="2043000" />
+      <workItem from="1534302163125" duration="2396000" />
     </task>
     <task id="LOCAL-00001" summary="增加数据库文件&#10;管理员默认账号密码是admin admin">
       <created>1532595266908</created>
@@ -1119,7 +1120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534322841439</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="readme 修改">
+      <created>1534323428991</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534323428991</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1128,7 +1136,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144706000" />
+    <option name="totallyTimeSpent" value="145059000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1639,34 +1647,34 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="126">
-            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <first_editor relative-caret-position="3744">
+            <caret line="208" column="277" lean-forward="false" selection-start-line="208" selection-start-column="277" selection-end-line="208" selection-end-column="277" />
             <folding>
-              <marker date="1534322598000" expanded="true" signature="2882:3106" ph="{...}" />
-              <marker date="1534322598000" expanded="true" signature="2894:3104" ph="[...]" />
-              <marker date="1534322598000" expanded="true" signature="2900:3014" ph="{&quot;name&quot;: &quot;login&quot;...}" />
-              <marker date="1534322598000" expanded="true" signature="3015:3100" ph="{&quot;path&quot;: '/index'...}" />
-              <marker date="1534322598000" expanded="true" signature="3188:3243" ph="{...}" />
-              <marker date="1534322598000" expanded="true" signature="3258:3378" ph="{...}" />
-              <marker date="1534322598000" expanded="true" signature="3275:3374" ph="{...}" />
-              <marker date="1534322598000" expanded="true" signature="3288:3354" ph="{&quot;path&quot;: '/login'...}" />
-              <marker date="1534322598000" expanded="true" signature="3406:3522" ph="{...}" />
-              <marker date="1534322598000" expanded="true" signature="3420:3435" ph="{...}" />
-              <marker date="1534322598000" expanded="true" signature="3441:3519" ph="{...}" />
-              <marker date="1534322598000" expanded="true" signature="3451:3514" ph="{&quot;path&quot;: '/login'...}" />
-              <marker date="1534322598000" expanded="true" signature="3528:3541" ph="{...}" />
-              <marker date="1534322598000" expanded="true" signature="3578:3692" ph="{...}" />
-              <marker date="1534322598000" expanded="true" signature="3640:3674" ph="{&quot;title&quot;: '首页'...}" />
-              <marker date="1534322598000" expanded="true" signature="3740:4024" ph="{...}" />
-              <marker date="1534322598000" expanded="true" signature="3843:3989" ph="{...}" />
-              <marker date="1534322598000" expanded="true" signature="3874:3967" ph="{&quot;title&quot;: item...}" />
-              <marker date="1534322598000" expanded="true" signature="4152:4415" ph="{...}" />
-              <marker date="1534322598000" expanded="true" signature="4185:4201" ph="{...}" />
-              <marker date="1534322598000" expanded="true" signature="4222:4278" ph="{&quot;name&quot;: &quot;/&quot;...}" />
-              <marker date="1534322598000" expanded="true" signature="4464:5023" ph="{...}" />
-              <marker date="1534322598000" expanded="true" signature="4570:4999" ph="{...}" />
-              <marker date="1534322598000" expanded="true" signature="4600:4995" ph="{...}" />
-              <marker date="1534322598000" expanded="true" signature="4680:4763" ph="{&quot;name&quot;: router.code...}" />
+              <marker date="1534323814000" expanded="true" signature="2985:3209" ph="{...}" />
+              <marker date="1534323814000" expanded="true" signature="2997:3207" ph="[...]" />
+              <marker date="1534323814000" expanded="true" signature="3003:3117" ph="{&quot;name&quot;: &quot;login&quot;...}" />
+              <marker date="1534323814000" expanded="true" signature="3118:3203" ph="{&quot;path&quot;: '/index'...}" />
+              <marker date="1534323814000" expanded="true" signature="3291:3346" ph="{...}" />
+              <marker date="1534323814000" expanded="true" signature="3361:3481" ph="{...}" />
+              <marker date="1534323814000" expanded="true" signature="3378:3477" ph="{...}" />
+              <marker date="1534323814000" expanded="true" signature="3391:3457" ph="{&quot;path&quot;: '/login'...}" />
+              <marker date="1534323814000" expanded="true" signature="3509:3625" ph="{...}" />
+              <marker date="1534323814000" expanded="true" signature="3523:3538" ph="{...}" />
+              <marker date="1534323814000" expanded="true" signature="3544:3622" ph="{...}" />
+              <marker date="1534323814000" expanded="true" signature="3554:3617" ph="{&quot;path&quot;: '/login'...}" />
+              <marker date="1534323814000" expanded="true" signature="3631:3644" ph="{...}" />
+              <marker date="1534323814000" expanded="true" signature="3681:3795" ph="{...}" />
+              <marker date="1534323814000" expanded="true" signature="3743:3777" ph="{&quot;title&quot;: '首页'...}" />
+              <marker date="1534323814000" expanded="true" signature="3843:4127" ph="{...}" />
+              <marker date="1534323814000" expanded="true" signature="3946:4092" ph="{...}" />
+              <marker date="1534323814000" expanded="true" signature="3977:4070" ph="{&quot;title&quot;: item...}" />
+              <marker date="1534323814000" expanded="true" signature="4255:4518" ph="{...}" />
+              <marker date="1534323814000" expanded="true" signature="4288:4304" ph="{...}" />
+              <marker date="1534323814000" expanded="true" signature="4325:4381" ph="{&quot;name&quot;: &quot;/&quot;...}" />
+              <marker date="1534323814000" expanded="true" signature="4567:5126" ph="{...}" />
+              <marker date="1534323814000" expanded="true" signature="4673:5102" ph="{...}" />
+              <marker date="1534323814000" expanded="true" signature="4703:5098" ph="{...}" />
+              <marker date="1534323814000" expanded="true" signature="4783:4866" ph="{&quot;name&quot;: router.code...}" />
             </folding>
           </first_editor>
           <second_editor />
