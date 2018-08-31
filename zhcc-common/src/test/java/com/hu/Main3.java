@@ -10,7 +10,7 @@ import java.util.Scanner;
  */
 public class Main3 {
     public static void main(String[] args) {
-        List<String> list = new ArrayList<>;
+        List<String> list = new ArrayList<>();
         Scanner in = new Scanner(System.in);
         String s = in.nextLine();
         int n = Integer.valueOf(s.split("\\s+")[0]);
@@ -29,7 +29,7 @@ public class Main3 {
                 char cur = list.get(i+1).charAt(i1);
                 while( cur == '.'){
                     sb.setCharAt(i1,'.');
-                    list.get(i + 1).
+                    list.get(i + 1);
                 }
 
             }
