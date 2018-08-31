@@ -5,7 +5,7 @@ from datetime import datetime
 # maven仓库地址
 mvnHome = "/Users/hulichao/.m2/repository"
 # 删除该日期前的文件以及文件夹
-deleteDateBefore = datetime(2018,8,1,0,0,0)
+deleteDateBefore = datetime(2018,8,20,0,0,0)
 
 
 def listPathAndClean(pathContext):
