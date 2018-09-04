@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.22)
 # Database: zhcc
-# Generation Time: 2018-07-26 08:51:31 +0000
+# Generation Time: 2018-09-04 09:30:56 +0000
 # ************************************************************
 
 
@@ -227,7 +227,8 @@ VALUES
 	(1,'超级管理员小小虎b','admin','fe2a97db9c82b74400cdcdf48e8988f2','fe0de4353a8b7a05a9111a8505108a31',0,'2018-04-01 10:26:28',1,0),
 	(2,'业务管理员路人甲','user1','cf7389fbeae819e97cb893738cbcd6a9','c77d38deb0e6f4192123195cad7c3c3f',0,'2018-04-01 10:26:28',1,0),
 	(3,'业务小能手bigbang','user2','1f0b5c815553885af26c7eba10315079','7c27db969fe08288f115595618dba65f',0,'2018-04-01 10:26:28',1,0),
-	(15,'admin1','admin1','56c6cbbd80483a5a18fdf865e6af1125','51d833ea84f5d10c353542cfa0fc03c3',0,'2018-07-21 15:34:59',1,0);
+	(15,'admin1','admin1','56c6cbbd80483a5a18fdf865e6af1125','51d833ea84f5d10c353542cfa0fc03c3',0,'2018-07-21 15:34:59',1,0),
+	(20,'admin3','admin3','f7b65b2da236ba134da23a84e54844ba','1ac3e8db457092ff92b09453bbba4eb7',0,'2018-07-26 17:01:06',1,0);
 
 /*!40000 ALTER TABLE `sys_user` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -263,7 +264,8 @@ VALUES
 	(1,17),
 	(1,18),
 	(2,2),
-	(3,3);
+	(3,3),
+	(20,1);
 
 /*!40000 ALTER TABLE `sys_user_role` ENABLE KEYS */;
 UNLOCK TABLES;
