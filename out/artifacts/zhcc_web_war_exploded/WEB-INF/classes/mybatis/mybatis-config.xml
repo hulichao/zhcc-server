@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 指定MyBatis使用slf4j -->
+	<settings>
+		<setting name="logImpl" value="SLF4J" />
+	</settings>
+	<typeAliases>
+		<typeAlias alias="PageRequest" type="com.hu.zhcc.common.entity.PageRequest"></typeAlias>
+		<typeAlias alias="Page" type="com.hu.zhcc.common.entity.Page"></typeAlias>
+	</typeAliases>
+</configuration> 

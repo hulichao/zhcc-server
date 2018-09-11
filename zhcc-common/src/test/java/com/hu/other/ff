@@ -1,0 +1,21 @@
+$str ="aaabbcccaab";
+        $arr = array();
+        $num = 1;
+        $var = $str[0]
+        $i=0;
+       while(++$i < strlen($str)){
+            if($str[$i] = $var){
+                $num++;
+            }else{
+                array_push($arr,$num);
+                            array_push($arr,$var);
+                $var = $str[$i];
+                $num = 1;
+            }
+
+
+        }
+                array_push($arr,$num);
+                            array_push($arr,$var);
+        $arr = implode("",$arr);
+        print($arr);

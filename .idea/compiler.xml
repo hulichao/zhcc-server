@@ -15,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="zhcc-common" target="1.8" />
+      <module name="zhcc-demo" target="1.8" />
       <module name="zhcc-server" target="1.8" />
       <module name="zhcc-shiro" target="1.8" />
       <module name="zhcc-web" target="1.8" />
