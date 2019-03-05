@@ -3,8 +3,9 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zhcc-common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/zhcc-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zhcc-shiro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/utils/maven学习笔记.md" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/zhcc-shiro/src/main/java/com/hu/zhcc/shiro/utils/maven学习笔记.md" charset="GBK" />
     <file url="file://$PROJECT_DIR$/zhcc-web" charset="UTF-8" />
   </component>
 </project>

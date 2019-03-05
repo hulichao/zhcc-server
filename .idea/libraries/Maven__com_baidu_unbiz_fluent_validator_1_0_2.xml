@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: com.baidu.unbiz:fluent-validator:1.0.2">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/baidu/unbiz/fluent-validator/1.0.2/fluent-validator-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../web_request/maven_repository/com/baidu/unbiz/fluent-validator/1.0.2/fluent-validator-1.0.2.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/com/baidu/unbiz/fluent-validator/1.0.2/fluent-validator-1.0.2-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../web_request/maven_repository/com/baidu/unbiz/fluent-validator/1.0.2/fluent-validator-1.0.2-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/baidu/unbiz/fluent-validator/1.0.2/fluent-validator-1.0.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../web_request/maven_repository/com/baidu/unbiz/fluent-validator/1.0.2/fluent-validator-1.0.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

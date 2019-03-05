@@ -1,12 +1,25 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="zhcc-web:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/zhcc_web_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/zhcc-web/target/zhcc-web</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="zhcc-web" />
         </element>
         <element id="directory" name="lib">
+          <element id="archive" name="zhcc-shiro-1.0.jar">
+            <element id="module-output" name="zhcc-shiro" />
+          </element>
+          <element id="library" level="project" name="Maven: org.pegdown:pegdown:1.6.0" />
+          <element id="library" level="project" name="Maven: org.parboiled:parboiled-java:1.1.7" />
+          <element id="library" level="project" name="Maven: org.parboiled:parboiled-core:1.1.7" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm:5.0.3" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm-tree:5.0.3" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm-analysis:5.0.3" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm-util:5.0.3" />
+          <element id="archive" name="zhcc-common-1.0.jar">
+            <element id="module-output" name="zhcc-common" />
+          </element>
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
@@ -73,6 +86,9 @@
           <element id="library" level="project" name="Maven: org.springframework.hateoas:spring-hateoas:0.18.0.RELEASE" />
           <element id="library" level="project" name="Maven: io.springfox:springfox-swagger-ui:2.2.2" />
         </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/zhcc-web/target/zhcc-web/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="zhcc-web/web/Web" />
     </root>

@@ -17,6 +17,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.pegdown</groupId>
+            <artifactId>pegdown</artifactId>
+            <version>1.6.0</version>
+        </dependency>
+        <dependency>
             <groupId>com.hu.zhcc</groupId>
             <artifactId>zhcc-common</artifactId>
             <version>1.0</version>

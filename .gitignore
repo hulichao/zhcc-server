@@ -3,6 +3,8 @@
 *.iml
 /target/
 
+# workspace.xml
+.idea/*
 
 # Log file
 *.log
