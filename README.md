@@ -4,7 +4,7 @@
 # 引言
 ## 心声
 现在的Java世界，各种资源很丰富，不得不说，从分布式，服务化，orm,再到前端控制，权限等等玲琅满目，网上有句话说，语言框架迭代太快了，我学不动了，不如回去搬砖吧，可是天这么热，砖烫手啊。程序搞起来很容易，就是有点头冷。
-<div align="center"> <img src="http://p94g7wqy4.bkt.clouddn.com/zhcc/content/touleng.jpg" width="400"/> </div><br>
+<div align="center"> <img src="https://raw.githubusercontent.com/hulichao/hulichao.github.io/source/source/pictures/zhcc/content/touleng.jpg" width="400"/> </div><br>
 
 ## 程序员的两大世界难题
 ### 重复轮子
@@ -14,8 +14,8 @@
 第二个问题其实不仅涉及到人与人，也涉及到了机器与人的关系，产品经理说，我想做一台挖掘机来炒菜，挖掘机根据最好的优化路线行驶，就跟现在的无人车一样，同时设备齐全，能根据主人的口味推荐出菜系，这样既可以保持其原有功用，又可以作为私家小助手，用最优雅的方式做出最美味的菜，不就是炒菜么，对于很多人来说也不复杂，开个挖掘机相信也不需要太多知识，还有做推荐算法的，请一些相关领域专家，应该也不是很大问题，但是整个流程组合起来就比较费劲了，互联网就是这样，把生活中各种各种实实在在的问题用互联网的思维来实现，那么有什么问题呢，那就是沟通，各个专业人员之间的沟通，设计者的想法与实现者的想法的互动，机器与人的互动。听起来这是个段子，或者科幻电影的情节，嗯，其实确实是。对于程序员，与同事的沟通，与产品经理沟通，需求是什么，能实现成怎么样，就是看整个团队的契合度吧。
 
 ## 建议
-理解原理有用，但不要重复造轮子，不要重复造轮子，不要重复造轮子,宁愿去github找一圈找到基本合适的轮子改造，也不要为了装逼写自己轮子，否则会很难受，至于沟通，不得不说就是个难解，所以出来了面向接口设计，面向接口编程，这样的方式比肥仔快乐水更自然。<div align="center"> <img src="http://p94g7wqy4.bkt.clouddn.com//zhcc/content/feizai1.jpg" width="400"/> </div><br>
-<div align="center"> <img src="http://p94g7wqy4.bkt.clouddn.com//zhcc/content/feizai2.jpg" width="400"/> </div><br>
+理解原理有用，但不要重复造轮子，不要重复造轮子，不要重复造轮子,宁愿去github找一圈找到基本合适的轮子改造，也不要为了装逼写自己轮子，否则会很难受，至于沟通，不得不说就是个难解，所以出来了面向接口设计，面向接口编程，这样的方式比肥仔快乐水更自然。<div align="center"> <img src="https://raw.githubusercontent.com/hulichao/hulichao.github.io/source/source/pictures//zhcc/content/feizai1.jpg" width="400"/> </div><br>
+<div align="center"> <img src="https://raw.githubusercontent.com/hulichao/hulichao.github.io/source/source/pictures//zhcc/content/feizai2.jpg" width="400"/> </div><br>
 
 ---
 # 正题
@@ -192,17 +192,36 @@ case "delete":
 vue.js官网是最好的教程，vue.js官网是最好的教程，vue.js官网是最好的教程。不信的话，咱走着瞧！
 ## 怎么用？
 一份 demo、一个入门指南、一个 API 列表，还有一个测试。
-1. demo怎么用
+
+1 demo怎么用
  
   - git clone 前端地址 执行npm run dev 在这之前你可能需要按照一下npm 依赖的包，那就先执行npm init 然后 npm install, 最后再执行npm run dev或者npm run build 两者的区别你懂的。
   - git clone 后端地址  clone下来然后呢？修改数据库路径，运行sql导入数据库，最后运行于服务器即可，当然这是开发阶段，生产环境下的话，你可能需要nginx服务器，来部署前端代码。
-2. 入门指南，对于这么优秀的你，应该不需要了吧。
+
+2 入门指南: 你如果仅仅想跑起来，像下面动图一样，那简单，妥！
+
+总共分下面几步：
+
+2.1  准备好代码包括数据库sql
+
+首先打开你的git clone git@github.com:hulichao/zhcc-server.git 这是后端项目，随意你放哪里
+然后 git clone git@github.com:hulichao/zhcc-view-source.git 这是前端项目，同样随你放哪里
+sql文件位于https://github.com/hulichao/zhcc-server/tree/master/zhcc-web/src/main/webapp/sql路径下,然后保证数据库正常使用。
+
+2.2 修改db.propertites
+主要host username password
+2.3 启动zhcc-server
+    利用maven对项目做个简单clean ,最后 install到你的本地maven仓库,然后部署tomcat运行即可。
+
+2.4 启动zhcc-view
+    用默认配置就可以，在项目下执行npm run dev 
+    
 3. API和测试后期再完善。请时刻关注本文档，获取实时资讯。
   
 ## 捐赠（Donation）
 觉得不错的话，赏呗咖啡呗，一杯不行半杯也可以诶，如果进来fork一下下，star一下下再好不过啦。
-<div align="center"> <img src="http://p94g7wqy4.bkt.clouddn.com//common/pay/weChatPay.png" width="400"/> 
-<img src="http://p94g7wqy4.bkt.clouddn.com//common/pay/zhiFuPay.jpg" width="400"/> </div><br>
+<div align="center"> <img src="https://raw.githubusercontent.com/hulichao/hulichao.github.io/source/source/pictures/common/pay/weChatPay.png" width="400"/> 
+<img src="https://raw.githubusercontent.com/hulichao/hulichao.github.io/source/source/pictures/common/pay/zhiFuPay.jpg" width="400"/> </div><br>
 
 ## 参考
 
@@ -212,5 +231,6 @@ vue.js官网是最好的教程，vue.js官网是最好的教程，vue.js官网�
 - 参考资料3：开源框架 https://gitee.com/zhocuhenglin/dp-security/tree/master/dp-shiro/src/main/java/net/chenlin/dp/shiro
 - 参考资料4：vue 官网
 - 参考资料5：vue 权限控制 https://github.com/OneWayTech/vue-auth-solution
+
 ## 刻意练习
 说明一点，从学习本身来说并不是难事，比如读一本书，学会用一个框架，等等，即使零基础到熟练，所花费的时间和精力也不会很多，而整个技能栈却又是这样一点一滴积累起来的，那些看起来洋洋得意的大神，背后都少不了"肮脏",为什么你就不可以，因为你想速成，你想一夜之间掌握所有的技能，所以现在的各种速成，比如21天学会从删库到跑路的书籍很流行，其实哪有捷径，只有警记：自律可以改变生活，成长在于坚持与积累。从刻意练习这里可以学到的是，学会学习，我们作为编程儿，无论哪种形式要记得编程->反馈->修正->重新整理学习，这样你离大神的路会越来越近，更多的关注个人博客http://hulichao.top ，我这里有酒，你要来么？
