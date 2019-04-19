@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans    
+                        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<!-- 实体类别名 -->
+        <property name="typeAliasesPackage" value="com.hu.zhcc.shiro.entity"></property>
+		<!-- 文件映射器，指定类文件 -->
+		<property name="configLocation" value="classpath:/mybatis/mybatis-config.xml" />
+		<!-- 自动扫描mapping.xml文件 -->
+		<property name="mapperLocations" value="classpath:/mapper.com.hu.zhcc.shiro.dao/*.xml"></property>
+	</bean>
+
+
+</beans>

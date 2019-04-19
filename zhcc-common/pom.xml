@@ -13,5 +13,7 @@
 
     <name>zhcc-common</name>
     <url>http://www.hulichao.top</url>
+    <dependencies>
+    </dependencies>
 
 </project>
