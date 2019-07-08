@@ -12,7 +12,9 @@ public class DAOException extends RuntimeException {
 	private static final long serialVersionUID = -4537960897528403282L;
 
 	private HttpStatus httpStatus;
+
 	private int code;
+
 	public DAOException(HttpStatus httpStatus, int code, String message) {
 		this(message);
 		this.httpStatus = httpStatus;
@@ -34,12 +36,15 @@ public class DAOException extends RuntimeException {
 	public HttpStatus getHttpStatus() {
 		return httpStatus;
 	}
+
 	public void setHttpStatus(HttpStatus httpStatus) {
 		this.httpStatus = httpStatus;
 	}
+
 	public int getCode() {
 		return code;
 	}
+
 	public void setCode(int state) {
 		this.code = code;
 	}
