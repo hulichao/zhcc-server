@@ -13,6 +13,11 @@ import com.hu.zhcc.shiro.utils.JwtUtils;
 
 import java.util.List;
 
+/**
+ * 在认证后执行的
+ * 获取首页资源
+ *
+ */
 @Controller
 public class HomeController extends BaseController {
 	

@@ -22,6 +22,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 登陆系统第一步：获取token
+ *
+ *
+ */
 @RestController
 @RequestMapping("/auth")
 public class AuthController {

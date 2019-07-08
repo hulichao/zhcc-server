@@ -7,17 +7,21 @@ import io.jsonwebtoken.Claims;
 /**
  * Controllerg公用基类
  * 包含全局异常和jwt--> subject
+ * 处理全局异常两种方式
+ * 		1.如本类中，继承一个Controller(已注释)
+ * 	    2.使用全局异常bean来处理
+ *
  *
  * @author hulichao
  * @date 2018/3/15
  */
 public class BaseController {
-    
-//    @ExceptionHandler
-//    public ResponseEntity<String> exceptionHandler(HttpServletRequest request, Exception e) {
-//    	//FIXME
-//        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("系统管理员跑路拉，您再自己瞅瞅吧");
-//    }
+
+/*    @ExceptionHandler
+    public ResponseEntity<String> exceptionHandler(HttpServletRequest request, Exception e) {
+    	//FIXME
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("系统管理员跑路拉，您再自己瞅瞅吧");
+    }*/
 	
 	/**
 	 * 从jwt中获取subject信息

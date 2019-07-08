@@ -17,6 +17,7 @@ public final class AvailableResourceListVO {
     public int getId() {
         return this.id;
     }
+
     public void setId(int id) {
         this.id = id;
     }
@@ -24,6 +25,7 @@ public final class AvailableResourceListVO {
     public String getName() {
         return this.name;
     }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -31,6 +33,7 @@ public final class AvailableResourceListVO {
     public int getRouterId() {
         return this.routerId;
     }
+
     public void setRouterId(int routerId) {
         this.routerId = routerId;
     }

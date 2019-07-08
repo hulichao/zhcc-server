@@ -17,6 +17,7 @@ public final class ResourcePermissionVO {
     public int getRoleId() {
         return roleId;
     }
+
     public void setRoleId(int roleId) {
         this.roleId = roleId;
     }
@@ -24,6 +25,7 @@ public final class ResourcePermissionVO {
     public int getResourceId() {
         return this.resourceId;
     }
+
     public void setResourceId(int resourceId) {
         this.resourceId = resourceId;
     }
@@ -31,6 +33,7 @@ public final class ResourcePermissionVO {
     public String getResourcePermission() {
         return this.resourcePermission;
     }
+
     public void setResourcePermission(String resourcePermission) {
         this.resourcePermission = resourcePermission;
     }

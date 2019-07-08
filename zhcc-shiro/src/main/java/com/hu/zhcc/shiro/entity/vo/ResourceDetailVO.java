@@ -83,6 +83,7 @@ public final class ResourceDetailVO {
     public String getRouterName() {
         return this.routerName;
     }
+
     public void setRouterName(String routerName) {
         this.routerName = routerName;
     }

@@ -25,6 +25,7 @@ public final class ResourceListVO {
     public int getId() {
         return this.id;
     }
+
     public void setId(int id) {
         this.id = id;
     }
@@ -32,6 +33,7 @@ public final class ResourceListVO {
     public String getName() {
         return this.name;
     }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -39,6 +41,7 @@ public final class ResourceListVO {
     public String getCode() {
         return this.code;
     }
+
     public void setCode(String code) {
         this.code = code;
     }
@@ -46,6 +49,7 @@ public final class ResourceListVO {
     public String getUrl() {
         return this.url;
     }
+
     public void setUrl(String url) {
         this.url = url;
     }
@@ -53,6 +57,7 @@ public final class ResourceListVO {
     public String getPermission() {
         return this.permission;
     }
+
     public void setPermission(String permission) {
         this.permission = permission;
     }
@@ -60,6 +65,7 @@ public final class ResourceListVO {
     public boolean getLocked() {
         return this.locked;
     }
+
     public void setLocked(boolean locked) {
         this.locked = locked;
     }
@@ -67,6 +73,7 @@ public final class ResourceListVO {
     public int getRouterId() {
         return this.routerId;
     }
+
     public void setRouterId(int routerId) {
         this.routerId = routerId;
     }
