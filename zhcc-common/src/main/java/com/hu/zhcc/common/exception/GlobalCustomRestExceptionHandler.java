@@ -13,13 +13,15 @@ import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
 /**
+ * 全局Rest异常处理
+ *
  * @author hulichao
  * @date 2018/7/20
  */
 @ControllerAdvice
 @Order(Ordered.HIGHEST_PRECEDENCE)
 public class GlobalCustomRestExceptionHandler extends ResponseEntityExceptionHandler {
-    //处理自定义异常
+    //处理客户端自定义异常
     @ExceptionHandler(CustomException.class)
     public ResponseEntity<Object> handleCustomerException(CustomException ex) {
 
@@ -29,7 +31,7 @@ public class GlobalCustomRestExceptionHandler extends ResponseEntityExceptionHan
 
     }
 
-    //处理自定义异常
+    //处理Service层自定义异常
     @ExceptionHandler(ServiceException.class)
     public ResponseEntity<Object> handleServiceException(ServiceException ex) {
 
@@ -39,7 +41,7 @@ public class GlobalCustomRestExceptionHandler extends ResponseEntityExceptionHan
 
     }
 
-    //处理自定义异常
+    //处理Dao层自定义异常
     @ExceptionHandler(DAOException.class)
     public ResponseEntity<Object> handleDAOException(DAOException ex) {
 
@@ -56,7 +58,7 @@ public class GlobalCustomRestExceptionHandler extends ResponseEntityExceptionHan
         final Result error = Result.fail(status.value(), "HttpRequestMethodNotSupported");
         return new ResponseEntity<Object>(error, new HttpHeaders(), status);
     }
-    // 处理通用异常
+    // 处理通用（上面异常处理不了的异常）异常
     @ExceptionHandler(Exception.class)
     protected ResponseEntity<Object> handleFutureException(Exception ex,
                                                                          HttpHeaders headers, HttpStatus status, WebRequest request) {
