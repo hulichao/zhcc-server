@@ -1,7 +1,4 @@
-package com.hu.zhcc.common.exception;/**
- * Created by hulichao on 2018/7/20.
- */
-
+package com.hu.zhcc.common.exception;
 import org.springframework.http.HttpStatus;
 
 /**
