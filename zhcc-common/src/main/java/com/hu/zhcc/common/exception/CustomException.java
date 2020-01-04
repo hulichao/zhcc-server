@@ -3,7 +3,7 @@ package com.hu.zhcc.common.exception;
 import org.springframework.http.HttpStatus;
 
 /**
- * 客户端异常类
+ * 客户端异常类, CustomException
  *
  * @author hulichao
  * @date 2018/7/20
