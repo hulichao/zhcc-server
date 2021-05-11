@@ -15,7 +15,7 @@
 		<java.version>1.8</java.version>
 		<maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
 		<spring.version>4.3.14.RELEASE</spring.version>
-		<shiro.version>1.6.0</shiro.version>
+		<shiro.version>1.7.1</shiro.version>
 	</properties>
 
 	<dependencies>
